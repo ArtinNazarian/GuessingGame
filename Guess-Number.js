@@ -1,4 +1,5 @@
 console.log("Number guessing game")
+//generate a random number
 const number = Math.floor(Math.random()*26);
 guess = Number(prompt("Guess a number between 1 and 26. You only get 5 ties. "))
 let numberOfGuesses=1
